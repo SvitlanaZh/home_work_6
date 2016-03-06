@@ -135,16 +135,17 @@ header {
 
 .menu ul li {
    float: left;
-   margin-right: 25px;
-}
+   }
 
 .menu ul li a{
    color: #b1bcc0;
    text-decoration: none;
    font-size: 14px;
+   padding: 2px 16px 2px 10px;
+
 }
 
-.menu .main_part li:hover {
+.menu .main_part li:hover a{
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
@@ -155,15 +156,16 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6585', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
 }
 
-.menu li:nth-last-child(2) img{
-   text-align: center;
-   margin-bottom: -8px;
-   margin-left: 52px;
+.second_part #basket {
+  margin-right: 0px;
+  margin-left: 60px;
 }
 
-.menu li:nth-last-child(2),.menu li:last-child {
+
+.menu .second_part li{
    color: #b1bcc0;
    font-size: 11px;
+   margin-right: 16px;
 }
 
  .menu li span {
@@ -426,9 +428,18 @@ header {
    margin-top: 19px;
 }
 
-.catalog img{
+#icon {
    vertical-align: middle;
+   margin-top: -2px;
+   line-height: 2;
+   padding-right: 6px;
+}
 
+#icon-1 {
+  vertical-align: middle;
+  margin-top: -2px;
+  line-height: 2;
+  padding-right: 0;
 }
 
 .catalog li p{
@@ -446,10 +457,7 @@ header {
    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
 }
 
-.products img{
-   vertical-align: middle;
 
-}
 
 .products p {
    padding: 4px;
@@ -551,12 +559,7 @@ header {
    margin-top: 19px;
 }
 
-.brends img{
-   vertical-align: middle;
-   padding-left: 3px;
-   padding-right: 3px;
 
-}
 
 .brends  p{
    padding: 3px;
@@ -575,22 +578,17 @@ header {
     box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
 }
 
-.products-2 img{
-   vertical-align: middle;
-   padding-left: 3px;
-   padding-right: 3px;
-   padding-bottom: 3px;
-}
+
 
 .products-2 p {
    padding: 4px;
-   margin-top: 13px;
+   margin-top: 9px;
    margin-left: 16px;
    border: 1px solid #114165;
    width: 128px;
-   height: 18px;
+   height: 19px;
    font-size: 13px;
-   border-radius: 12px;
+   border-radius: 15px;
    color: #114165;
  }
 
@@ -644,7 +642,7 @@ input[type="checkbox"] {
 footer {
     height: 100px;
     background-color: #213a4d;
-    margin-top: -9px;
+    margin-top: -15px;
 }
 
 .footer {
