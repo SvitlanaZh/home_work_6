@@ -1,7 +1,7 @@
 
 .wrapper { /*контейнер для содержимого странички*/
   position: relative;
-  max-width: 907px;
+  max-width: 912px;
   margin: 0 auto;
   font-family: Arial,sans-serif;
 }
@@ -36,7 +36,7 @@ header {
 }
 
 .avtorization { /*main box for avtorization line*/
-   padding: 3px;
+   padding: 3px 3px 3px 5px;
    width: 487px;
    height: 22px;
    float: left;
@@ -54,12 +54,12 @@ header {
 .avtorization form img {
   float: left;
   margin-top: 2px;
-  margin-right: 5px;
+  margin-right: 6px;
 }
 
 .avtorization form input{
   float:left;
-  width: 112px;
+  width: 110px;
   height: 14px;
   margin-right: 7px;
 }
@@ -67,7 +67,7 @@ header {
 .avtorization a{
   display: inline-block;
   float: left;
-  padding-right: 4px;
+  padding-right: 5px;
   margin-top: 4px;
   color: white;
   font-weight: bold;
@@ -86,20 +86,20 @@ header {
   color: #bfbfbf;
 }
 
-.nav {
+nav {
   float: left;
   border: 1px solid #c0c7ca;
   border-radius: 10px;
   margin-left: 18px;
-  margin-top: 4px;
+  margin-top: 3px;
   padding-left: 8px;
-  padding-right: 12px;
+  padding-right: 11px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
   -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
  }
 
-   .nav img {
+   nav img {
      margin-right: 3px;
      margin-bottom: 2px;
 
@@ -117,7 +117,7 @@ header {
 .menu {
    height: 13px;
    padding: 10px 0 10px 0;
-   margin-top: 4px;
+   margin-top: 3px;
    border-radius: 5px;
    background: #576068; /* Old browsers */
    background: -moz-linear-gradient(top,  #576068 0%, #000000 35%); /* FF3.6-15 */
@@ -130,7 +130,7 @@ header {
 }
 
 .menu ul {
-   margin-left: 145px;
+   margin-left: 136px;
 }
 
 .menu ul li {
@@ -146,8 +146,7 @@ header {
 }
 
 .menu .main_part li:hover a{
-  padding-left: 10px;
-  padding-right: 10px;
+
   border-radius: 10px;
   background: #1f6585; /* Old browsers */
   background: -moz-linear-gradient(top,  #1f6585 0%, #0c3357 100%); /* FF3.6-15 */
@@ -158,7 +157,7 @@ header {
 
 .second_part #basket {
   margin-right: 0px;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 
 
@@ -188,6 +187,7 @@ header {
 /*-----start of first form - ATO-SEARCH------*/
 .auto_search {
    float: left;
+   margin-left: 7px;
    padding-left: 17px;
    padding-right: 13px;
    width:384px;
@@ -262,8 +262,8 @@ header {
     position: relative;
     float: left;
     padding: 6px 14px 10px 10px;
-    margin-left: 15px;
-    margin-right: 11px;
+    margin-left: 10px;
+    margin-right: 8px;
     width:165px;
     height: 116px;
     border: 2px solid #b6b6b7;
@@ -419,13 +419,13 @@ header {
 
 
 /*------------------------START OF SIDEBAR--------------------------------------*/
-.conteiner {
+section {
    display: table-cell;
 }
 
 .sidebar {
    float: left;
-   margin-top: 19px;
+   margin-top: 18px;
 }
 
 #icon {
@@ -443,9 +443,9 @@ header {
 }
 
 .catalog li p{
-   padding: 3px;
+   padding: 2px 3px 3px 6px;
    border: 1px solid #114165;
-   width: 171px;
+   width: 175px;
    height: 19px;
    font-size: 13px;
    margin-bottom: 12px;
@@ -460,17 +460,22 @@ header {
 
 
 .products p {
-   padding: 4px;
+   padding: 4px 3px;
+   margin-left: 2px;
    border: 1px solid #114165;
-   width: 140px;
+   width: 142px;
    height: 19px;
    font-size: 13px;
    border-radius: 15px;
    color: #114165;
 }
 
+.products--bolts p {
+  margin-top: -2px;
+}
+
 .products ul li {
-   margin-left: 50px;
+   margin-left: 55px;
    list-style: circle;
    color: #114165;
    line-height: 25px;
@@ -498,12 +503,13 @@ header {
 
 /*------------------------START OF CONTENT--------------------------------------*/
 .content {
-   width: 527px;
+   width: 526px;
    float: left;
    margin-top: 15px;
    margin-left: 8px;
-   margin-right: 8px;
+   margin-right: 6px;
    padding-top: 16px;
+   padding-bottom: 5px;
    background: #c9cfd1; /* Old browsers */
    background: -moz-linear-gradient(top,  #e4e7e8 0%, #94a7b0 70%); /* FF3.6-15 */
    background: -webkit-linear-gradient(top,  #e4e7e8 0%, #94a7b0 70%); /* Chrome10-25,Safari5.1-6 */
@@ -514,7 +520,7 @@ header {
 .content .row {
    display: inline-block;
    margin-left: 30px;
-   margin-bottom: 28px;
+   margin-bottom: 26px;
    font-size: 13px;
    text-align: center;
    color: #1f2528;
@@ -522,7 +528,7 @@ header {
 
 .content .row:first-child {
    display: inline-block;
-   margin-left: 26px;
+   margin-left: 23px;
 }
 
 .row .weel{
@@ -546,6 +552,10 @@ header {
     color: #206988;
     font-size: 15px;
 }
+
+.3_row {
+  margin-top: 5px;
+}
 /*------------------------END OF CONTENT--------------------------------------*/
 
 
@@ -554,9 +564,9 @@ header {
 
 
 /*------------------------START OF ASIDE--------------------------------------*/
-.aside {
+aside {
    float: left;
-   margin-top: 19px;
+   margin-top: 17px;
 }
 
 
@@ -624,13 +634,24 @@ input[type="checkbox"] {
 
 /*------------------------START OF BRAND-LOGO--------------------------------------*/
 .brands_logo {
-   padding-left: 114px;
+   padding-left: 119px;
 }
 
 .brands_logo img{
    margin: 43px 11px 32px 0;
    vertical-align: top;
 }
+   #brands_logo--3 {
+     margin-left: -4px;
+     margin-right: 10px;
+}
+#brands_logo--6 {
+  margin-left: -5px;
+  margin-right: 5px;
+  margin-top: 35px;
+}
+
+
 /*------------------------END OF BRANDS-LOGO--------------------------------------*/
 
 
@@ -640,13 +661,13 @@ input[type="checkbox"] {
 
 /*------------------------START OF FOOTER--------------------------------------*/
 footer {
-    height: 100px;
+    height: 110px;
     background-color: #213a4d;
-    margin-top: -15px;
+    margin-top: -8px;
 }
 
 .footer {
-    margin-left: 296px;
+    margin-left: 300px;
 }
 
 footer ul li {
