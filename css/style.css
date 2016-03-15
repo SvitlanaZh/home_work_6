@@ -23,7 +23,7 @@ header {
   float: left;
   margin-right: 4px;
   margin-top: 6px;
-  margin-left: 6px;
+  margin-left: 9px;
 }
 
 .contacts p {
@@ -90,10 +90,11 @@ nav {
   float: left;
   border: 1px solid #c0c7ca;
   border-radius: 10px;
-  margin-left: 18px;
+  margin-left: 16px;
   margin-top: 3px;
   padding-left: 8px;
   padding-right: 11px;
+  padding-bottom: 1px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
   -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
@@ -112,6 +113,7 @@ nav {
 .main_photo img{
   clear: both;
   margin-top: 10px;
+  margin-left: 2px;
 }
 
 .menu {
@@ -157,7 +159,7 @@ nav {
 
 .second_part #basket {
   margin-right: 0px;
-  margin-left: 65px;
+  margin-left: 66px;
 }
 
 
@@ -187,10 +189,10 @@ nav {
 /*-----start of first form - ATO-SEARCH------*/
 .auto_search {
    float: left;
-   margin-left: 7px;
+   margin-left: 6px;
    padding-left: 17px;
    padding-right: 13px;
-   width:384px;
+   width:382px;
    height: 134px;
    border: 2px solid #b6b6b7;
    border-radius: 18px;
@@ -262,12 +264,12 @@ nav {
     position: relative;
     float: left;
     padding: 6px 14px 10px 10px;
-    margin-left: 10px;
+    margin-left: 13px;
     margin-right: 8px;
-    width:165px;
-    height: 116px;
+    width:166px;
+    height: 118px;
     border: 2px solid #b6b6b7;
-    border-radius: 15px;
+    border-radius: 17px;
     box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
 }
 
@@ -358,7 +360,7 @@ nav {
    float: left;
    padding: 6px 15px 9px 9px;
    width:242px;
-   height: 116px;
+   height: 118px;
    border: 2px solid #b6b6b7;
    border-radius: 15px;
    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
@@ -418,12 +420,12 @@ nav {
 
 
 
-/*------------------------START OF SIDEBAR--------------------------------------*/
+/*------------------------START OF SIDEBAR--LEFT--------------------------------------*/
 section {
    display: table-cell;
 }
 
-.sidebar {
+.sidebar--left {
    float: left;
    margin-top: 18px;
 }
@@ -445,7 +447,7 @@ section {
 .catalog li p{
    padding: 2px 3px 3px 6px;
    border: 1px solid #114165;
-   width: 175px;
+   width: 173px;
    height: 19px;
    font-size: 13px;
    margin-bottom: 12px;
@@ -463,7 +465,7 @@ section {
    padding: 4px 3px;
    margin-left: 2px;
    border: 1px solid #114165;
-   width: 142px;
+   width: 144px;
    height: 19px;
    font-size: 13px;
    border-radius: 15px;
@@ -509,7 +511,8 @@ section {
    margin-left: 8px;
    margin-right: 6px;
    padding-top: 16px;
-   padding-bottom: 5px;
+   padding-bottom: 6px;
+   border-radius: 2px;
    background: #c9cfd1; /* Old browsers */
    background: -moz-linear-gradient(top,  #e4e7e8 0%, #94a7b0 70%); /* FF3.6-15 */
    background: -webkit-linear-gradient(top,  #e4e7e8 0%, #94a7b0 70%); /* Chrome10-25,Safari5.1-6 */
@@ -532,13 +535,13 @@ section {
 }
 
 .row .weel{
-   width: 135px;
-   height: 127px;
+   width: 136px;
+   height: 126px;
    margin-bottom: 3px;
-   margin-right: -3px;
+   margin-right: -4px;
    border: 1px solid #cfd4d6;
    background-color: white;
-   border-radius:  5px;
+   border-radius:  8px;
 }
 
 
@@ -553,7 +556,8 @@ section {
     font-size: 15px;
 }
 
-.3_row {
+
+.content .3_row .row{
   margin-top: 5px;
 }
 /*------------------------END OF CONTENT--------------------------------------*/
@@ -563,8 +567,8 @@ section {
 
 
 
-/*------------------------START OF ASIDE--------------------------------------*/
-aside {
+/*------------------------START OF SIDEBAR--RIGHT--------------------------------------*/
+.sidebar--right {
    float: left;
    margin-top: 17px;
 }
@@ -579,7 +583,7 @@ aside {
    font-size: 13px;
    margin-bottom: 14px;
    margin-top: -2px;
-   margin-left: 2px;
+   margin-left: 3px;
    border-radius: 15px;
    vertical-align: middle;
    color: #114165;
@@ -593,7 +597,7 @@ aside {
 .products-2 p {
    padding: 4px;
    margin-top: 9px;
-   margin-left: 16px;
+   margin-left: 18px;
    border: 1px solid #114165;
    width: 128px;
    height: 19px;
@@ -615,7 +619,7 @@ input[type="checkbox"] {
 }
 
 .submit {
-   width: 80px;
+   width: 83px;
    height: 24px;
    border: none;
    border-radius: 15px;
@@ -661,9 +665,10 @@ input[type="checkbox"] {
 
 /*------------------------START OF FOOTER--------------------------------------*/
 footer {
-    height: 110px;
+    height: 102px;
     background-color: #213a4d;
-    margin-top: -8px;
+    margin-top: -6px;
+    margin-left: 2px;
 }
 
 .footer {
